@@ -7,7 +7,8 @@ html {
 
 *,
 *::before,
-*::after {
+*::after,
+p {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -45,4 +46,4 @@ button, button:focus {
 
 @import "header";
 @import "hero";
-@import "about"
+@import "about";

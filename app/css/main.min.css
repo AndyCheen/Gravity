@@ -5,7 +5,8 @@ html {
 
 *,
 *::before,
-*::after {
+*::after,
+p {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   margin: 0;
@@ -125,4 +126,37 @@ button, button:focus {
     height: 100%; }
   .about__content {
     padding-top: 35px;
+    padding-bottom: 92px; }
+  .about__title {
     margin-bottom: 30px; }
+  .about__descr:first-child {
+    margin-bottom: 20px; }
+  .about__text {
+    margin-bottom: 61px; }
+  .about__author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .about__author-photo {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      background-image: url("../img/about/avatar.png");
+      background-size: cover;
+      margin-right: 31px; }
+    .about__author-name {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 32px;
+      color: #222222;
+      margin-bottom: 6px; }
+    .about__author-post {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #616161; }
