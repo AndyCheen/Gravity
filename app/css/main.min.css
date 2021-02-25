@@ -42,6 +42,13 @@ button, button:focus {
   line-height: 28px;
   color: #616161; }
 
+.section-title--small {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase; }
+
 .header {
   padding-top: 60px;
   padding-bottom: 60px; }
@@ -160,3 +167,22 @@ button, button:focus {
       font-size: 18px;
       line-height: 28px;
       color: #616161; }
+
+.services {
+  padding-top: 142px; }
+  .services__title--small {
+    color: #ADADAD; }
+  .services__content {
+    padding-top: 40px; }
+  .services__list--first {
+    margin-left: 39px; }
+  .services__list-item {
+    margin-bottom: 21px; }
+  .services__list-link {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8b8b8b; }
+    .services__list-link:hover {
+      color: #8b8b8b; }

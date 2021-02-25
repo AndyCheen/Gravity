@@ -1,0 +1,29 @@
+.services {
+  padding-top: 142px;
+  &__title {
+    &--small {
+      color: #ADADAD;
+    }
+  }
+  &__content {
+    padding-top: 40px;
+  }
+  &__list {
+    &--first {
+      margin-left: 39px;
+    }
+  }
+  &__list-item {
+    margin-bottom: 21px;
+  }
+  &__list-link{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8b8b8b;
+    &:hover {
+      color: #8b8b8b;
+    }
+  }
+}
